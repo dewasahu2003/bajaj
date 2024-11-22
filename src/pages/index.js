@@ -18,7 +18,7 @@ export default function Home() {
       // Validate JSON
       const parsedJson = JSON.parse(inputJson);
       
-      const response = await fetch('/api/bajaj', {
+      const response = await fetch('/api/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
